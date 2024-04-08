@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-wrapper {
+    white-space: nowrap;
+}
+
+.ring {
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 35%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container {
+    height: 120px;
+    width: 200px;
+    padding: 1rem;
+    background-color: powderblue;
+    margin-top: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    align-items: end;
+}
+
+.draggable {
+    cursor: move;
+    display: flex;
+}
+
+.draggable.dragging {
+    opacity: 0.5;
+}
